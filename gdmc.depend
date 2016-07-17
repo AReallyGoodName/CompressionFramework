@@ -1,0 +1,44 @@
+# depslib dependency file v1.0
+1465120698 source:d:\projects\mine\gdmc\gdmc\coder.cpp
+	<iostream>
+	<fstream>
+	"coder.h"
+
+1465120439 d:\projects\mine\gdmc\gdmc\coder.h
+	"mixer.h"
+
+1465121163 d:\projects\mine\gdmc\gdmc\mixer.h
+	<list>
+	"predictor.h"
+	"markov_predictor.h"
+
+1465117352 d:\projects\mine\gdmc\gdmc\predictor.h
+
+1465124093 source:d:\projects\mine\gdmc\gdmc\main.cpp
+	<iostream>
+	<cstdio>
+	<cstring>
+	<cstdlib>
+	"fileheader.h"
+	"mixer.h"
+	"coder.h"
+
+1465120178 d:\projects\mine\gdmc\gdmc\fileheader.h
+
+1465121131 source:d:\projects\mine\gdmc\gdmc\markov_predictor.cpp
+	<iostream>
+	"markov_predictor.h"
+
+1465125681 d:\projects\mine\gdmc\gdmc\markov_predictor.h
+	"predictor.h"
+	"markov_state.h"
+
+1465125645 d:\projects\mine\gdmc\gdmc\markov_state.h
+
+1465118317 source:d:\projects\mine\gdmc\gdmc\markov_state.cpp
+	"markov_state.h"
+
+1465121183 source:d:\projects\mine\gdmc\gdmc\mixer.cpp
+	<list>
+	"mixer.h"
+
